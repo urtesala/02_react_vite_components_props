@@ -1,6 +1,11 @@
 function SectionTitle(props) {
   console.log('props ===', props);
-  return <h2 className='sectionTitle'>{props.title}</h2>;
+  return (
+    <div>
+      <h2 className='sectionTitle'>{props.title}</h2>
+      <p className='subtitle'></p>
+    </div>
+  );
 }
 
 export default SectionTitle;
