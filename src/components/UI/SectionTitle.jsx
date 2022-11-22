@@ -3,7 +3,7 @@ function SectionTitle(props) {
   return (
     <div>
       <h2 className='sectionTitle'>{props.title}</h2>
-      <p className='subtitle'></p>
+      {props.subtitle ? <p className='subtitle'>{props.subtitle}</p> : ''}
     </div>
   );
 }

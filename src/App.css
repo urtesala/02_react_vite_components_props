@@ -72,3 +72,25 @@
 .about {
   align-items: center;
 }
+
+/* contact */
+
+.contact {
+  justify-items: center;
+}
+
+.contact i {
+  color: #007bff;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 4rem;
+}
+
+.contactP {
+  color: gray;
+}

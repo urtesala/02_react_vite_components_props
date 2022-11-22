@@ -1,8 +1,9 @@
+import Hero from './components/Hero';
+import About from './components/About';
 import OurServices from './components/OurServices';
 import OurTeamSection from './components/team/OurTeamSection';
-import Hero from './components/Hero';
+import Contact from './components/contact/Contact';
 import './App.css';
-import About from './components/About';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <About />
       <OurTeamSection />
       <OurServices />
+      <Contact />
     </div>
   );
 }
