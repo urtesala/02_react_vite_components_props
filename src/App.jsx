@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
-      <Hero title='Info Hero' subtitle='Info subtitle' />
+      <Hero title='Info Hero' subtitle='Info subtitle' color='blue' />
       <About />
       <OurTeamSection />
       <OurServices />

@@ -54,12 +54,19 @@
 
 /* hero */
 
-.heroDiv {
-  height: 200px;
-  width: 100%;
+.hero {
+  color: white;
   background-color: #007bff;
-  padding-top: 2.5rem;
+  padding: 1.5em 0;
 }
+
+.hero.red {
+  background-color: tomato;
+}
+.hero.green {
+  background-color: green;
+}
+
 .heroTitle,
 .heroSubtitle {
   margin-left: 4rem;
